@@ -1,5 +1,5 @@
 body{
-    background-color: aqua;
+    background-color: whitesmoke;
     color:red     
         
 
@@ -47,6 +47,11 @@ a:active{
 .button:hover{
     background:red;
     color: white;
+}
+
+
+.clr{
+    clear:both;
 }
 
 .box-1{
@@ -143,3 +148,69 @@ a:active{
     box-sizing:border-box; 
 }
 
+#main-block{
+    float:left;
+    width: 70%;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+#main-sidebar{
+    float:right;
+    width:30%;
+    background-color: #333;
+    padding:15px;
+    box-sizing: border-box;
+
+}
+
+#main-sidebar{
+    color:#ccc
+}
+
+
+.p-box{
+    width:800px;
+    height:500px;
+    margin-top: 30px;
+    position:relative;
+    background-image:url('../images/abstract.jpg');
+
+    background-repeat: no-repeat;
+    background-position:100px 200px;
+    background-position:center center; 
+}
+
+.p-box h1{
+    position:absolute;
+    top: 80px;
+}
+
+.p-box h2{
+    position:absolute;
+    bottom:40px;
+    right: 100px;
+}
+
+
+.fix-me{
+    position:fixed;
+    top:400px;
+    right:100px;
+}
+
+.my-list li:first-child{
+    background: green;
+}
+
+.my-list li:last-child{
+    background-color: blue;
+}
+
+.my-list li:nth-child(5){
+    background:yellow;
+}
+
+.my-list li:nth-child(even){
+    background:grey;
+}
