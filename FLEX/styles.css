@@ -14,6 +14,7 @@
 .row{
     width: 100%;
     max-width: 600px;
+    margin: 0 auto;
 }
 .box{
     border: 4px solid lightgrey;
